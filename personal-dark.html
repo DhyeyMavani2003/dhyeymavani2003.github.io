@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta content="Nishant's Projects" name="title" property="og:title">
+	<meta content="assets/site_screenshot.JPG" name="image" property="og:image">
+	<meta content='no-cache' http-equiv='cache-control'>
+	<meta content='0' http-equiv='expires'>
+	<meta content='no-cache' http-equiv='pragma'>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+	</script>
+	<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+	<script>
+	           function updateSite() {
+	               location.replace("personal.html");
+	           }
+	</script>
+
+	<link href="assets/Nishant_CloseUp_Dark.jpg" rel="icon" sizes="16x16" type="image">
+	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
+	<link href="styles-dark.css" rel="stylesheet">
+	<title>Nishant Mishra | Personal</title>
+</head>
+<body style="background-color: #0d1017;">
+	<ul class="nav sticky-top nav-pills" style="background-color: #161b21;">
+		<li class="nav-item" style="padding-top:7px; padding-bottom:5px;">
+			<a class="nav-link" href="index-dark.html">Home</a>
+		</li>
+		<li class="nav-item" style="padding-top:7px; padding-bottom:5px;">
+			<a class="nav-link" href="research-dark.html">Research</a>
+		</li>
+		<li class="nav-item" style="padding-top:7px; padding-bottom:5px;">
+			<a class="nav-link active" href="personal-dark.html">Personal</a>
+		</li>
+		<li class="nav-item" style="padding-top:7px; padding-bottom:5px;">
+			<a class="nav-link" href="courses-dark.html">Coursework</a>
+		</li>
+		<li class="nav-item" style="padding-left:15px; padding-top:7px; padding-bottom:5px;"><input data-off="🌙" data-offstyle="outline-secondary" data-on="☀️" data-onstyle="info" data-style="quick" data-toggle="toggle" id="toggle-event" onchange="updateSite()" type="checkbox"></li>
+	</ul><br>
+	<h2 align="center"><u><strong>Personal Projects</strong></u></h2><br>
+	<div class="container">
+		<div class="row">
+			<div align="center" class="col" id='personal'>
+				<h2>Psyduck's Trading Bot 📈</h2>
+				<p>In March 2021, I was <b>one of 60 college freshmen</b> selected to attend Jane Street's First-Year Trading & Technology Program (<a id="Biopticon" href="https://www.janestreet.com/join-jane-street/our-programs/fttp/"><b>FTTP</b></a>). Grouped
+					into teams of three, we competed in an Electronic Trading Challenge (ETC), which had us program a market trader bot (<b>Python</b>)
+					that uses TCP connections (<b>Bash</b>), a known fair value of bonds, and discrepancies in the pricing of securities to generate profit in a simulated financial exchange. Some last-minute modifications to our algorithm allowed our team (<i>Psyduck</i>) to jump to the <b>top 8</b> in the final round, despite having spent most of the competition in last due to initial bugs.<br>
+				<br>
+				<a class="btn btn-outline-primary" href="https://github.com/nmishra459/Jane-Street-FTTP-ETC"><b>GitHub Repository</b></a></p>
+			</div>
+			<div class="col text-right"><img alt="Responsive image" class="img-fluid border border-dark" height="550" src="assets/FTTP.png" width="570"></div>
+		</div>
+	</div><br>
+
+	<hr style="border-color:#161b21;">
+	<br>
+
+	<div class="container">
+		<div class="row">
+			<div class="col"><br><img alt="Responsive image" class="img-fluid border border-dark" height="550" src="assets/Math22.png" width="570"></div>
+			<div align="center" class="col right text-align left" id='personal'>
+				<h2>Bridges & Donuts 🌉🍩</h2>
+				<p>In my freshman year at Harvard, I worked on two projects for Math 22,
+				a year-long proof-based course on the connections between <b>linear algebra</b> and <b>vector calculus</b>. For each project, my partner, Erin Yuan (<i>Harvard '24</i>), and I worked to write up a paper, one on <b>graph theory</b> with linear algebra (Fall '20), and the other on <b>point-set topology</b> with vector calculus (Spring '21). We start both papers by proving abstract theorems, but end with applications of each topic, whether it was computing the sheer number of paths a traveler could take to reach their destination (graph theory), or classifying the letters of the alphabet (topology).
+				<br><br>
+				<a class="btn btn-outline-primary" href="assets/An_Introduction_to_the_Applications_of_Linear_Algebra_in_Graph_Theory.pdf"><b>Graph Theory Paper</b></a> <a class="btn btn-outline-primary" href="assets/An_Introduction_to_Point_Set__Topology.pdf"><b>Point-Set Topology Paper</b></a></p>
+			</div>
+		</div>
+	</div><br>
+
+	<hr style="border-color:#161b21;">
+	<br>
+
+	<div class="container">
+		<div class="row">
+			<div align="center" class="col" id='personal'>
+				<br>
+				<h2>Catch 21: Dice 🎲</h2>
+				<p>This started out as my final project for CS50, Harvard's most popular course, with more than 700 students! My partner, Omar Wahby (<i>Harvard 2024</i>), and I implemented a web application to host a two-player dice game programmed with <b>JavaScript</b>. The game also features a username and password account system, a personalized game statistics page, and a global leaderboard for users to see how they stack up against each other, all implemented with <b>SQL</b> and <b>Python</b>. For the front-end, we used <b>HTML5/CSS</b>, as well as <b>Bootstrap 4</b>. We ended up deploying the website on Heroku, so anyone can make an account, play with friends, and appear on the leaderboard!<br>
+				<br>
+				<a class="btn btn-outline-primary" href="https://catch-21-dice.herokuapp.com/login"><b>Deployed Site</b></a> <a class="btn btn-outline-primary" href="https://github.com/nmishra459/catch_21_dice"><b>GitHub Repository</b></a> <a class="btn btn-outline-primary" href="https://www.youtube.com/watch?v=euf5um5zlSY"><b>Video Demo</b></a></p>
+			</div>
+			<div class="col"><img alt="Responsive image" class="img-fluid border border-dark" height="500" src="assets/Catch21-Dice.png" width="500"></div>
+		</div>
+	</div><br>
+
+	<hr style="border-color:#161b21;">
+	<br>
+
+	<div class="container">
+		<div class="row">
+			<div class="col"><img alt="Responsive image" class="img-fluid border border-dark" height="500" src="assets/Math_Modeling.PNG" width="500"></div>
+			<div align="center" class="col right text-align left" id='personal'>
+				<br><br><br>
+				<h2>Keep on Trucking 🚚</h2>
+				<p>In March 2020, I teamed up with four of my high school friends to compete in the MathWorks Math Modeling Challenge. Together, we researched the U.S. electric
+					truck market, developed mathematical models (<b>Python</b>) to predict electric truck usage in the next two decades, and determined ideal economic/environmental
+					zones for U.S.-based charging station infrastructure. We compiled our results into a final paper, which placed in the <b>top 19% of 760 submissions.</b><br>
+				<br>
+				<a class="btn btn-outline-primary" href="assets/M3MathChallengeElectricTrucking2020.pdf"><b>Research Paper</b></a> <a class="btn btn-outline-primary" href="https://github.com/nmishra459/PHS_M3_Math_Modeling"><b>GitHub Repository</b></a></p>
+			</div>
+		</div>
+	</div><br>
+
+	<hr style="border-color:#161b21;">
+	<br>
+
+	<div class="container">
+		<div class="row">
+			<div align="center" class="col" id='personal'>
+				<br><br><br>
+				<h2>Asteroid Ambush! 🚀</h2>
+				<p>For my final project for AP Computer Science A, I programmed a 2D space fighter game that has users destroy asteroids and collect coins. The game
+					features a timer, scoreboard, and life counter. To spice up gameplay, I added four different upgrade paths for the users to take, which can either
+					grant lives, randomly destroy asteroids, or improve the ray-gun mechanism's rate and scope. The sprites were taken from open source locations on the
+					internet, and the logic was implemented entirely in <b>Java.</b><br>
+				<br>
+				<a class="btn btn-outline-primary" href="https://github.com/nmishra459/Asteroid_Ambush"><b>GitHub Repository</b></a></p>
+			</div>
+			<div class="col">
+				<video autoplay loop muted class="embed-responsive embed-responsive-1by1" height="400" width="400"><source src="assets/asteroids.mp4" type="video/mp4"> Your browser does not support the video tag.</video>
+			</div>
+		</div>
+	</div><br>
+
+	<hr style="border-color:#161b21;">
+	<br>
+
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<img alt="Responsive image" class="img-fluid border border-dark" height="500" src="assets/NYT.png" width="500">
+			</div>
+			<div align="center" class="col right text-align left" id='personal'>
+				<h2>Writing for Impact ✍️</h2>
+				<p>In my summers as a high schooler, I spent a lot of time competing in <i>The New York Times</i> Summer Reading Competition, which has students
+					submit short essays on their thoughts on online articles they find on the Times's website. My response to Chloe Valdary's "Why I Refuse to Avoid
+					White People," as well as the Charlottesville Unite the Right rally, was <b>one of 11 entries</b> selected to be published from almost <b>9000
+					submitted worldwide</b> in 2017. Having my voice heard on such a large platform spurred me to keep writing on my own, until it eventually
+					became one of my favorite hobbies!</b><br>
+				<br>
+				<a class="btn btn-outline-primary" href="https://www.nytimes.com/2017/09/05/learning/reflections-on-our-summer-reading-contest-and-our-final-week-of-winners.html"><b>Published Essay</b></a></p>
+			</div>
+		</div><br>
+	</div>
+
+</body>
+</html>
