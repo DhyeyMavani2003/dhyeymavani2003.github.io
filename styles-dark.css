@@ -16,6 +16,7 @@ body {
 	zoom: 85%;
 	/* Webkit browsers */
 }
+
 img {
 	filter: grayscale(50%);
 	filter: brightness(85%);
