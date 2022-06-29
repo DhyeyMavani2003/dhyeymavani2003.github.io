@@ -1,5 +1,3 @@
-# dhyeymavani2003.github.io - Personal Website: dhyeymavani.com
-
-This is the repository for my personal website.
+# Dhyey Mavani's Personal Website Repository: dhyeymavani.com
   
 Thanks to Nishant Mishra for allowing me to get inspiration from his repository.
