@@ -192,7 +192,11 @@
       );
     }
 
-    ReactDOM.render(<FindMarket />, document.getElementById("root"));
+    function render() {
+      ReactDOM.render(React.createElement(FindMarket), document.getElementById("root"));
+    }
+
+    render();
   </script>
 </body>
 </html>
